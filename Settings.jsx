@@ -18,6 +18,7 @@ module.exports = class Settings extends React.Component {
           </Text>
         </Card>
         <Divider />
+        <div style={{ marginBottom: 20 }} />
         <ButtonItem
           onClick={() => open(() => React.createElement(ConfirmModal))}
           note="Completely close Discord and relaunch it."
